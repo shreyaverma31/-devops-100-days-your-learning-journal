@@ -1,1 +1,43 @@
 
+# Day 02 - Linux Server Health Checker
+
+## Objective
+Create a Bash script to monitor the health of a Linux server.
+
+## Features
+- Display hostname
+- Display current user
+- Display current date and time
+- Show disk usage
+- Show memory usage
+- Show system uptime
+
+## Technologies
+- Ubuntu (WSL)
+- Bash
+- Git
+- GitHub
+
+## Run
+
+```bash
+chmod +x health-check.sh
+./health-check.sh
+```
+
+## Sample Output
+
+```
+Hostname: LAPTOP-F82KK5UE
+Current User: sunil
+Disk Usage...
+Memory Usage...
+```
+
+## What I Learned
+
+- Bash scripting
+- Linux commands
+- File permissions using chmod
+- Executing shell scripts
+- Basic server monitoring
