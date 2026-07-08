@@ -1,0 +1,74 @@
+# 📦 Backup Automation Script
+
+## 📌 Objective
+
+This project automates the process of creating compressed backups of a source directory using a Bash script.
+
+---
+
+## 🚀 Features
+
+- Creates timestamped backups
+- Compresses files into `.tar.gz`
+- Checks if the source directory exists
+- Reports success or failure using exit codes
+- Stores backups in a dedicated `backups/` directory
+
+---
+
+## 🛠 Commands Practiced
+
+- tar
+- date
+- if-else
+- exit
+- chmod
+- mkdir
+- echo
+- Variables
+- Command Substitution (`$(...)`)
+
+---
+
+## 📚 What I Learned
+
+- Writing automation scripts in Bash
+- Using variables and command substitution
+- Creating compressed archives with `tar`
+- Validating directory existence using `if [ -d ]`
+- Understanding exit codes (`$?`)
+- Handling script errors using `exit 1`
+
+---
+
+## ▶️ How to Run
+
+```bash
+chmod +x backup.sh
+./backup.sh
+```
+
+---
+
+## 📂 Sample Output
+
+```text
+==========================================
+        BACKUP AUTOMATION
+==========================================
+Current Date: 2026-07-08_12-31-35
+Source folder found.
+Backup File: backup_2026-07-08_12-31-35.tar.gz
+Creating backup...
+Backup created successfully!
+Location: backups/backup_2026-07-08_12-31-35.tar.gz
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Delete old backups automatically
+- Backup multiple directories
+- Schedule automatic backups using cron
+- Log backup history to a file
