@@ -1,0 +1,39 @@
+# 📚 What I Learned
+
+- Writing Bash scripts using `#!/bin/bash`
+- Using `grep` to search for specific patterns in log files
+- Counting matching lines with `grep -c`
+- Counting total lines using `wc -l`
+- Displaying the last lines of a file using `tail`
+- Reading and analyzing log files
+- Using shell commands together to generate reports
+- Redirecting command output to a file using `>`
+- Creating and executing shell scripts with `chmod +x`
+- Running Bash scripts from the Ubuntu (WSL) terminal
+- Organizing Linux projects with a proper folder structure
+- Version control using Git
+- Pushing projects to GitHub
+  # 🐞 Challenges Faced
+
+- Initially, the script file was empty, so it produced no output.
+- Learned how to verify file contents using `cat`.
+- Understood the difference between PowerShell and the Ubuntu (WSL) terminal.
+- Learned to make scripts executable using `chmod +x`.
+- Fixed Git initialization issues using `git init`.
+- Successfully pushed the project to GitHub using GitHub CLI.
+
+  # 💻 Commands Practiced
+
+```bash
+grep
+grep -c
+wc -l
+tail
+cat
+echo
+chmod +x
+git init
+git add
+git commit
+git push
+```
